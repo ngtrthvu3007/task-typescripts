@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+.todo-app {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  min-height: 200px;
+}
+
+.input-task {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+.icon-add {
+  transform: translate(180px, -50px);
+  border: 1px solid;
+  padding: 5px 7px;
+  background-color: coral;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.icon-edit,
+.icon-delete {
+  cursor: pointer;
+}
